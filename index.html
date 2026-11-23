@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add('js')</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MONA DIGITAL | Front-End Developer</title>
+<!-- EDIT: meta description -->
+<meta name="description" content="Front-end developer building clean, responsive, accessible websites with HTML, CSS and JavaScript. Available for select projects.">
+<meta name="theme-color" content="#0B0F19">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MONA DIGITAL | Front-End Developer">
+<meta property="og:description" content="Clean, responsive websites built with HTML, CSS and JavaScript.">
+<meta property="og:image" content="https://[YOUR-DOMAIN]/assets/images/og-image.png">
+<meta property="og:url" content="https://[YOUR-DOMAIN]/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><!-- PLACEHOLDER favicon -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="media-queries.css">
+</head>
+
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- NAVBAR -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="#home" class="wordmark" aria-label="MONA DIGITAL, home"><span class="dot" aria-hidden="true"></span>DIGITAL</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-soft btn-sm">Let’s Talk</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <!-- EDIT or remove availability -->
+      <p class="eyebrow">FRONT-END DEVELOPER · AVAILABLE FOR SELECT PROJECTS</p>
+      <h1>I build clean, <span class="accent">responsive websites</span> that make businesses look their best.</h1>
+      <p class="lead">I turn ideas into thoughtful digital experiences with HTML, CSS and JavaScript—focused on clarity, usability and performance.</p>
+      <div class="btn-row">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#projects" class="btn btn-ghost">View selected work</a>
+      </div>
+      <p class="mono skill-line">HTML · CSS · JavaScript</p>
+    </div>
+    <div class="hero-visual reveal" aria-hidden="true">
+      <div class="browser">
+        <div class="browser-bar"><i></i><i></i><i></i><span>mona-digital.dev</span></div>
+        <div class="browser-body">
+          <div class="mock-nav"><b></b><em></em><em></em><em></em></div>
+          <div class="mock-h"></div><div class="mock-h short"></div>
+          <div class="mock-p"></div><div class="mock-p w70"></div>
+          <div class="mock-btns"><u></u><s></s></div>
+          <div class="mock-cards"><div></div><div></div><div></div></div>
+        </div>
+        <pre class="code-float mono">.hero {
+  display: grid;
+  gap: 2rem;
+}</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <figure class="profile reveal">
+      <!-- REPLACE: add your photo as assets/images/profile.jpg and swap this block for an <img> with alt text -->
+      <div class="profile-ph" role="img" aria-label="Profile photo placeholder"><span class="mono">YOUR PHOTO</span></div>
+    </figure>
+    <div class="reveal">
+      <p class="eyebrow">ABOUT</p>
+      <h2>A little about how I work.</h2>
+      <!-- EDIT: personalize this intro -->
+      <p>I’m a front-end developer who enjoys turning ideas and designs into simple, intuitive websites. I focus on clean code, responsive layouts, and details that make a digital experience feel effortless.</p>
+      <p>I work with HTML, CSS and JavaScript, and I’m always refining how I build.</p>
+      <ul class="principles">
+        <li class="card"><h3>Clear design</h3><p>Layouts that guide people to what matters.</p></li>
+        <li class="card"><h3>Responsive by default</h3><p>Built to work from small phones to wide screens.</p></li>
+        <li class="card"><h3>Thoughtful details</h3><p>Spacing, states and small touches done properly.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-head reveal"><p class="eyebrow">SERVICES</p><h2>What I can build for you.</h2></div>
+    <div class="grid-2">
+      <article class="card service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+        <h3>Responsive Website Development</h3><p>Pages that work across mobile, tablet and desktop.</p>
+      </article>
+      <article class="card service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M9 10v9"/></svg>
+        <h3>Landing Pages</h3><p>Focused pages for a product, service or campaign.</p>
+      </article>
+      <article class="card service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg>
+        <h3>Website UI Implementation</h3><p>Approved designs or references turned into clean frontend code.</p>
+      </article>
+      <article class="card service reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+        <h3>Website Improvements</h3><p>Layout fixes, responsive issues, styling refinements and usability tweaks.</p>
+      </article>
+    </div>
+    <p class="center reveal"><a href="#contact" class="btn btn-ghost btn-sm">Discuss your project</a></p>
+  </div>
+</section>
+
+<!-- PROJECTS: cards are rendered from the PROJECTS array in js/main.js -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head reveal"><p class="eyebrow">PROJECTS</p><h2>Selected work</h2><p class="muted">A few projects that show how I build.</p></div>
+    <div class="projects-grid" id="projects-grid">
+      <noscript><p class="muted">Enable JavaScript to see the project list.</p></noscript>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section-head reveal"><p class="eyebrow">SKILLS</p><h2>Skills &amp; tools</h2></div>
+    <!-- EDIT: remove anything you can't yet verify. No ratings on purpose. -->
+    <div class="skills-grid">
+      <div class="card reveal"><h3 class="mono">Core</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul></div>
+      <div class="card reveal"><h3 class="mono">Workflow</h3><ul class="chips"><li>Responsive design</li><li>Accessibility basics</li><li>Browser testing</li><li>Git / GitHub</li></ul></div>
+      <div class="card reveal"><h3 class="mono">Tools</h3><ul class="chips"><li>VS Code</li><li>Git</li><li>GitHub</li><li>Browser DevTools</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="section">
+  <div class="container">
+    <div class="section-head reveal"><p class="eyebrow">PROCESS</p><h2>How we’ll work together.</h2></div>
+    <ol class="steps">
+      <li class="reveal"><span class="num mono">01</span><h3>Discover</h3><p>Understand goals, audience and requirements.</p></li>
+      <li class="reveal"><span class="num mono">02</span><h3>Plan</h3><p>Agree on structure, references and scope.</p></li>
+      <li class="reveal"><span class="num mono">03</span><h3>Build</h3><p>Develop the responsive frontend and share progress.</p></li>
+      <li class="reveal"><span class="num mono">04</span><h3>Refine &amp; Deliver</h3><p>Test, revise, and hand over files or the live site.</p></li>
+    </ol>
+    <p class="center reveal">Have an idea? <a class="text-link" href="#contact">Let’s discuss it.</a></p>
+  </div>
+</section>
+
+<!-- LEARNING TIMELINE: delete this whole section (and nothing else) if not needed -->
+<section id="learning" class="section" data-removable>
+  <div class="container narrow">
+    <div class="section-head reveal"><p class="eyebrow">JOURNEY</p><h2>Learning &amp; building</h2></div>
+    <ol class="timeline">
+      <li class="reveal"><span class="mono">[DATE RANGE]</span><h3>[MILESTONE TITLE]</h3><p>[1–2 sentences. Only add real projects, courses or roles.]</p></li>
+      <li class="reveal"><span class="mono">[DATE RANGE]</span><h3>[MILESTONE TITLE]</h3><p>[1–2 sentences.]</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- TESTIMONIALS: hidden until you have approved quotes. Remove `hidden`, then copy the card below per quote. -->
+<section id="testimonials" class="section" data-removable hidden>
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">TESTIMONIALS</p><h2>Kind words</h2></div>
+    <div class="grid-2">
+      <blockquote class="card">
+        <p>[APPROVED CLIENT QUOTE]</p>
+        <footer>[CLIENT NAME] · [ROLE / COMPANY, only with permission]</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Have a project in mind?</h2>
+      <p>Tell me what you’re building, and let’s see how I can help.</p>
+      <!-- EDIT contact details in js/main.js (CONFIG). Defaults below are placeholders. -->
+      <ul class="contact-list">
+        <li><span class="mono">Email</span><a data-link="email" href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></li>
+        <li><span class="mono">LinkedIn</span><a data-link="linkedin" href="#" rel="noopener">[YOUR LINK]</a></li>
+        <li><span class="mono">GitHub</span><a data-link="github" href="#" rel="noopener">[YOUR LINK]</a></li>
+        <li data-link="whatsapp" hidden><span class="mono">WhatsApp</span><a data-link="whatsapp" href="#" rel="noopener">Message me</a></li>
+      </ul>
+    </div>
+    <form id="contact-form" class="card reveal" novalidate>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required aria-describedby="name-err"><p class="err" id="name-err" role="alert"></p></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-err"><p class="err" id="email-err" role="alert"></p></div>
+      <div class="field"><label for="type">Project type</label>
+        <select id="type" name="type" required aria-describedby="type-err"><option value="">Select…</option><option>Responsive website</option><option>Landing page</option><option>UI implementation</option><option>Website improvements</option><option>Other</option></select><p class="err" id="type-err" role="alert"></p></div>
+      <div class="field"><label for="budget">Budget <span class="muted">(optional)</span></label><input id="budget" name="budget" placeholder="e.g. USD 500–1,000"></div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required aria-describedby="message-err"></textarea><p class="err" id="message-err" role="alert"></p></div>
+      <button class="btn btn-primary" type="submit">Send project details</button>
+      <p class="form-status" id="form-status" role="status"></p>
+      <p class="muted small">This form opens your email app with the details filled in. It does not send anything by itself.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div><a href="#home" class="wordmark"><span class="dot" aria-hidden="true"></span>DIGITAL</a><p class="muted small">Front-end development for thoughtful digital experiences</p></div>
+    <nav aria-label="Footer"><ul><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+    <ul class="socials"><li><a data-link="linkedin" href="#" rel="noopener">LinkedIn</a></li><li><a data-link="github" href="#" rel="noopener">GitHub</a></li></ul>
+  </div>
+  <div class="container foot-bottom small muted"><span>© <span id="year">2026</span> MONA DIGITAL</span><a href="#home" aria-label="Back to top">Back to top ↑</a></div>
+</footer>
+
+<script src="main.js"> 
+
+</script>
+</body>
+</html>
